@@ -1,0 +1,28 @@
+git add filename
+git commit -m "add message"
+
+git status // on branch and changes
+git diff   // view different 
+
+git checkout -b branch_name  //create and move 
+git branch branch_name       //create
+git checkout branch_name     //change on branh
+
+git branch     //list all branch
+git branch -d branch_name //delete branch_name
+
+git merge branch_name   //compact branch_name to on branch
+git log --graph         
+
+git tag  //list all tags
+git tag tag_name //create tag as the last commit
+git tag tag_name commit_id // create tag as commit_id
+git show tag_name  
+git tag -d tag_name  //delete tag
+
+git push origin tag_name 
+git push origin : refs/tags/tag_name
+
+
+
+
